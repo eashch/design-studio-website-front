@@ -1,0 +1,9 @@
+.wrapper {
+    width:auto;
+}
+
+@media screen and (max-width: 1300px) {
+    .wrapper {
+        display: none;
+    }
+}

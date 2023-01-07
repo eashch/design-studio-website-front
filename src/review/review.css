@@ -1,0 +1,90 @@
+.review {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background: #FFFFFF;
+    -webkit-box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
+            box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 24px 35px 0px 20px;
+    width: 376px;
+    height: 428px;
+    position: relative;
+}
+
+.review__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 23px;
+    margin-bottom: 22px;
+}
+
+.review__name {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #181818;
+    text-transform: none;
+}
+
+.review__text {
+    font-size: 13px;
+    line-height: 23px;
+    color: #959595;
+    text-transform: none;
+    margin: 0;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+}
+
+.review__metrics {
+    margin-left: -20px;
+    position: absolute;
+    margin-top: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 293.75px;
+    height: 54px;
+    background: #E3B873;
+    -webkit-box-shadow: 5px 5px 20px rgba(227, 184, 115, 0.5);
+            box-shadow: 5px 5px 20px rgba(227, 184, 115, 0.5);
+}
+
+.review__line {
+    height: 100%;
+    width: 0px;
+    border: 0.375px solid #FFFFFF;
+}
+
+.review__text-big {
+    font-size: 17px;
+    line-height: 24px;
+    color: #FFFFFF;
+}

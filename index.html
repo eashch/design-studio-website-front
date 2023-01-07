@@ -1,17 +1,538 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        
 
+        <link rel="stylesheet" href="src/button/button.css" type="text/css">
+        <link rel="stylesheet" href="src/title/title.css" type="text/css">
+        <link rel="stylesheet" href="src/subtitle/subtitle.css" type="text/css">
+        <link rel="stylesheet" href="src/container/container.css" type="text/css">
+        <link rel="stylesheet" href="src/body/body.css" type="text/css">
+        <link rel="stylesheet" href="src/header/header.css" type="text/css">
+        <link rel="stylesheet" href="src/br/br.css" type="text/css">
+        <link rel="stylesheet" href="src/album/album.css" type="text/css">
+        <link rel="stylesheet" href="src/wrapper/wrapper.css" type="text/css">
+        <link rel="stylesheet" href="src/line/line.css" type="text/css">
+        <link rel="stylesheet" href="src/icon-segment/icon-segment.css" type="text/css">
+        <link rel="stylesheet" href="src/video/video.css" type="text/css">
+        <link rel="stylesheet" href="src/input/input.css" type="text/css">
+        <link rel="stylesheet" href="src/checkbox/checkbox.css" type="text/css">
+        <link rel="stylesheet" href="src/user-data/user-data.css" type="text/css">
+        
+        <link rel="stylesheet" href="src/logo/logo.css" type="text/css">
+        <link rel="stylesheet" href="src/header-content/header-content.css" type="text/css">
+        <link rel="stylesheet" href="src/header-navigation/header-navigation.css" type="text/css">
+
+        <link rel="stylesheet" href="src/hero/hero.css" type="text/css">
+        <link rel="stylesheet" href="src/overlay/overlay.css" type="text/css">
+        <link rel="stylesheet" href="src/hero-container/hero-container.css" type="text/css">
+
+        <link rel="stylesheet" href="src/completed-projects/completed-projects.css" type="text/css">
+
+        <link rel="stylesheet" href="src/online-control/online-control.css" type="text/css">
+
+        <link rel="stylesheet" href="src/types-of-repair/types-of-repair.css" type="text/css">
+        <link rel="stylesheet" href="src/repair-type/repair-type.css" type="text/css">
+
+        <link rel="stylesheet" href="src/request-specialist/request-specialist.css" type="text/css">
+        <link rel="stylesheet" href="src/rules/rules.css" type="text/css">
+        <link rel="stylesheet" href="src/charity/charity.css" type="text/css">
+
+        <link rel="stylesheet" href="src/fantasies/fantasies.css" type="text/css">
+
+        <link rel="stylesheet" href="src/clients/clients.css" type="text/css">
+        <link rel="stylesheet" href="src/review/review.css" type="text/css">
+
+        <link rel="stylesheet" href="src/contact-us/contact-us.css" type="text/css">
+        <link rel="stylesheet" href="src/questions/questions.css" type="text/css">
+        <link rel="stylesheet" href="src/contact-method/contact-method.css" type="text/css">
+
+        <link rel="stylesheet" href="src/footer/footer.css" type="text/css">
+        <link rel="stylesheet" href="src/footer-content/footer-content.css" type="text/css">
+
+        <title>Design Studio Frontpage</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Yeseva+One&display=swap" rel="stylesheet"> 
     </head>
-    <body>
-        <header>
-
+    <body class="body">
+        <header class="header">
+            <div class="container header-content">
+                <div class="logo">
+                    IC "Repair Design Project"
+                </div>
+                <nav class="header-content__container">
+                    <ul class="header-navigation">
+                        <li class="header-navigation__item"><a href="">Home</a></li>
+                        <li class="header-navigation__item"><a href="">Projects</a></li>
+                        <li class="header-navigation__item"><a href="">Measurement</a></li>
+                        <li class="header-navigation__item"><a href="">Team</a></li>
+                        <li class="header-navigation__item"><a href="">Reviews</a></li>
+                        <li class="header-navigation__item"><a href="">Contacts</a></li>
+                    </ul>
+                </nav>
+                <span class="header-content__text">+7 (928) 768-32-39</span>
+                <button class="button header-content__button">Request a call</button>
+            </div>
         </header>
         <main>
-
+            <section class="hero">
+                <div class="container">
+                    <div class="hero-container">
+                        <h1 class="title">
+                            Turnkey Repair in the<br>
+                            city of <span class="hero-container__text_highlighted">Rostov-on-Don</span> 
+                        </h1>
+                        <h2 class="subtitle hero-container__subtitle">
+                            Get ready-made turnkey repairs on time
+                            <br>with work time saving up to 45 days and <br class="br_small-screen">20% from
+                            <br class="br_big-screen">
+                            cost of materials due to the organization of <br class="br_small-screen">work
+                        </h2>
+                        <div class="hero-container__content">
+                            <button class="button hero-container__button">CALCULATE THE COST</button>
+                            <button class="button hero-container__button hero-container__button_secondary"></button>
+                        </div>
+                    </div>
+                    <div class="overlay"></div>
+                </div>
+            </section>
+            <section class="completed-projects">
+                <div class="container completed-projects__container">
+                    <div class="completed-projects__header">
+                        <ul class="completed-projects__navigation">
+                            <li class="completed-projects__item"><span>Rostov-on-Don, Admiral</span></li>
+                            <li class="completed-projects__item"><span>Sochi Thieves</span></li>
+                            <li class="completed-projects__item"><span>Rostov-on-Don Patriotic</span></li>
+                        </ul>
+                    </div>
+                    <div class="completed-projects__content">
+                        <div class="completed-projects__description">
+                            <h2 class="completed-projects__title">Completed<br>projects</h2>
+                            <span class="completed-projects__text completed-projects__text-block">Only a small part of the work performed by our company is presented 
+                                <br class="br_big-screen">on the site. For 14 years on in the construction 
+                                <br class="br_big-screen">market we have made happy more than 1000 families
+                            </span>
+                            <div class="album completed-projects__album">
+                                <button class="album__switcher">
+                                    <img src="src/album/album__arrow_left.svg" alt="Arrow left" width="6.26" height="10.96">
+                                </button>
+                                <button class="album__switcher">
+                                    <img src="src/album/album__arrow_right.svg" alt="Arrow right" width="6.26" height="10.96">
+                                </button>
+                            </div>
+                            <ul class="completed-projects__list">
+                                <li class="completed-projects__property">
+                                    <h3 class="completed-projects__property_name">City:</h3>
+                                    <span class="completed-projects__text">
+                                        Rostov-on-Don
+                                        <br>LCD admiral
+                                    </span>
+                                </li>
+                                <li class="completed-projects__property">
+                                    <h3 class="completed-projects__property_name">apartment area:</h3>
+                                    <span class="completed-projects__text">
+                                        81 m2
+                                    </span>
+                                </li>
+                                <li class="completed-projects__property">
+                                    <h3 class="completed-projects__property_name">Repair time:</h3>
+                                    <span class="completed-projects__text">
+                                        3.5 months
+                                    </span>
+                                </li>
+                                <li class="completed-projects__property">
+                                    <h3 class="completed-projects__property_name">Repair Cost:</h3>
+                                    <span class="completed-projects__text">
+                                        Upon request
+                                    </span>
+                                </li>
+                            </ul>
+                            <div class="completed-projects__switcher">
+                                <img src="src/completed-projects/completed-projects__arrow_left.svg" class="completed-projects__arrow" alt="Arrow left" width="41.46" height="13.28">
+                                <img src="src/completed-projects/completed-projects__dot_white.svg" alt="White circle" width="9.57" height="9.57">
+                                <img src="src/completed-projects/completed-projects__dot_gray.svg" alt="Gray circle" width="9.57" height="9.57">
+                                <img src="src/completed-projects/completed-projects__dot_gray.svg" alt="Gray circle" width="9.57" height="9.57">
+                                <img src="src/completed-projects/completed-projects__arrow_right.svg" class="completed-projects__arrow" alt="Arrow right" width="41.46" height="13.28">
+                            </div>
+                        </div>
+                        <div class="wrapper">
+                            <img src="src/completed-projects/completed-projects__image.png" class="completed-projects__image" alt="Window, chairs and fancy table" width="679" height="482">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="container online-control">
+                <h3 class="title_segment">online control</h3>
+                <div class="icon-segment">
+                    <div class="line icon-segment__line"></div>
+                    <img src="src/online-control/online-control__icon_camera.svg" alt="Camera icon" width="32.77" height="28">
+                    <div class="line icon-segment__line"></div>
+                </div>
+                <div class="video online-control__video">
+                    <button class="video__play">
+                        <img src="src/video/video__icon_play.svg" alt="Play symbol" class="video__triangle" width="28" height="28">
+                    </button>
+                    <div class="overlay video__overlay"></div>
+                </div>
+                <div class="line online-control__line"></div>
+                <span class="online-control__text">
+                    At each facility, a camera is installed that broadcasts the progress of work on the clock. At any time, you can go to our website and monitor the progress of work in your apartment. You can watch the live broadcast from one of our facilities!
+                    <br>Leave a request below and you will receive a link to the broadcast.
+                </span>
+                <div class="user-data">
+                    <div class="input">
+                        <span class="input__title">Name</span>
+                        <input class="input__field" type="text" placeholder="What is your name:" title="What is your name">
+                        <div class="line input__line"></div>
+                    </div>
+                    <div class="input">
+                        <span class="input__title input__title_phone"></span>
+                        <input class="input__field" type="tel" placeholder="Your phone number:" title="Your phone number">
+                        <div class="line input__line"></div>
+                    </div>
+                    <button class="button user-data__button">Submit</button>
+                </div>
+                <div class="checkbox user-data__checkbox">
+                    <input type="checkbox" class="checkbox__field" title="I agree to the processing of personal data">
+                    <span class="checkbox__title">I agree to the processing of personal data</span>
+                </div>
+            </section>
+            <section class="container types-of-repair">
+                <h3 class="title_segment types-of-repair__title">TYPES OF REPAIR</h3>
+                <div class="icon-segment">
+                    <div class="line icon-segment__line"></div>
+                    <img src="src/types-of-repair/types-of-repair__icon.svg" alt="Hammer and wrench icon" width="32.77" height="28">
+                    <div class="line icon-segment__line"></div>
+                </div>
+                <div class="types-of-repair__container">
+                    <div class="repair-type">
+                        <img src="src/types-of-repair/types-of-repair__image_1.png" class="repair-type__image" alt="Blue wall and flower in the corner" width="392" height="421">
+                        <div class="repair-type__container">
+                            <h4 class="title repair-type__title">Redecorating</h4>
+                            <ul class="repair-type__list">
+                                <li>Dismantling of old coatings</li>
+                                <li>Wallpapering</li>
+                                <li>Painting walls and ceilings</li>
+                                <li>Laying flooring</li>
+                                <li>Replacing plumbing</li>
+                                <li>Replacing sockets and switches</li>
+                                <li>Replacing doors</li>
+                            </ul>
+                        </div>
+                        <button class="button repair-type__button">from 900 rub / m2</button>
+                    </div>
+                    <div class="repair-type">
+                        <img src="src/types-of-repair/types-of-repair__image_2.png" class="repair-type__image" alt="Room with sofa and TV" width="392" height="421">
+                        <div class="repair-type__container">
+                            <h4 class="title repair-type__title">Overhaul</h4>
+                            <ul class="repair-type__list">
+                                <li>Dismantling of old coatings</li>
+                                <li>Wallpapering</li>
+                                <li>Painting walls and ceilings</li>
+                                <li>Laying flooring</li>
+                                <li>Replacing plumbing</li>
+                                <li>Replacing sockets and switches</li>
+                                <li>Replacing doors</li>
+                            </ul>
+                        </div>
+                        <button class="button repair-type__button">from 1800 rub / m2</button>
+                    </div>
+                    <div class="repair-type">
+                        <img src="src/types-of-repair/types-of-repair__image_3.png" class="repair-type__image" alt="Room with black wall and white lamps" width="392" height="421">
+                        <div class="repair-type__container">
+                            <h4 class="title repair-type__title">Designer Repair</h4>
+                            <ul class="repair-type__list">
+                                <li>Dismantling of old coatings</li>
+                                <li>Wallpapering</li>
+                                <li>Painting walls and ceilings</li>
+                                <li>Laying flooring</li>
+                                <li>Replacing plumbing</li>
+                                <li>Replacing sockets and switches</li>
+                                <li>Replacing doors</li>
+                            </ul>
+                        </div>
+                        <button class="button repair-type__button">from 4000 rub / m2</button>
+                    </div>
+                </div>
+            </section>
+            <section class="request-specialist">
+                <img src="src/rules/rules__image_background.png" class="request-specialist__background" alt="pug wrapped in a blanket" width="703" height="598">
+                <div class="request-specialist__container">
+                    <div class="rules">
+                        <div class="rules__container">
+                            <div class="rules__circle">
+                                <span class="rules__number">
+                                    01
+                                </span>
+                            </div>
+                            <span class="rules__text">Our specialist will arrive for measurements per day
+                                <br>contact, or appoint a date convenient for you</span>
+                        </div>
+                        <div class="rules__container">
+                            <div class="rules__circle">
+                                <span class="rules__number">
+                                    02
+                                </span>
+                            </div>
+                            <span class="rules__text">Free metering</span>
+                        </div>
+                        <div class="rules__container">
+                            <div class="rules__circle">
+                                <span class="rules__number">
+                                    03
+                                </span>
+                            </div>
+                            <span class="rules__text">Free consultation</span>
+                        </div>
+                        <div class="rules__container">
+                            <div class="rules__circle">
+                                <span class="rules__number">
+                                    04
+                                </span>
+                            </div>
+                            <span class="rules__text">Get a cost estimate and
+                                <br>the timing of your future repairs</span>
+                        </div>
+                    </div>
+                    <div class="request-specialist__form">
+                        <h3 class="request-specialist__title">Leave a request for free
+                            <br>departure of the measurer
+                        </h3>
+                        <div class="input request-specialist__wrapper">
+                            <span class="input__title request-specialist__field">Name</span>
+                            <input class="input__field request-specialist__input" type="text" placeholder="What is your name:" title="What is your name">
+                            <div class="line input__line request-specialist__line"></div>
+                        </div>
+                        <div class="input request-specialist__wrapper">
+                            <span class="input__title request-specialist__field">Phone</span>
+                            <input class="input__field request-specialist__input" type="tel" placeholder="Your phone number:" title="Your phone number">
+                            <div class="line input__line request-specialist__line"></div>
+                        </div>
+                        <div class="input request-specialist__wrapper">
+                            <span class="input__title request-specialist__field">Email</span>
+                            <input class="input__field request-specialist__input" type="email" placeholder="Your email" title="Your email">
+                            <div class="line input__line request-specialist__line"></div>
+                        </div>
+                        <div class="checkbox request-specialist__checkbox">
+                            <input type="checkbox" class="checkbox__field" title="I agree to the processing of personal data">
+                            <span class="checkbox__title request-specialist__line">I agree to the processing of personal data</span>
+                        </div>
+                        <button class="button request-specialist__button">Call the measurer</button>
+                    </div>
+                </div>
+                <div class="charity">
+                    <div class="charity__container">
+                        <img src="src/charity/charity__icon_pig-bank.svg" alt="Pig bank icon" width="40px" height="33.04px">
+                    </div>
+                    <span class="charity__description">
+                        Help save 10 - 20% of the 
+                        <br>cost of materials
+                    </span>
+                </div>
+            </section>
+            <section class="fantasies">
+                <div class="container fantasies__container_small-screen">
+                    <h3 class="title fantasies__title">We realize your
+                        <br>wildest fantasies
+                    </h3>
+                    <div class="album fantasies__album">
+                        <button class="album__switcher">
+                            <img src="src/album/album__arrow_left.svg" alt="Arrow left" width="6.26" height="10.96">
+                        </button>
+                        <button class="album__switcher">
+                            <img src="src/album/album__arrow_right.svg" alt="Arrow right" width="6.26" height="10.96">
+                        </button>
+                    </div>
+                    <div class="album__half-block-color"></div>
+                </div>
+                <div class="fantasies__container">
+                    <div class="fantasies__description">
+                        <h3 class="title fantasies__title">We realize your
+                            <br>wildest fantasies
+                        </h3>
+                        <ul class="fantasies__list">
+                            <li class="fantasies__item"><a href="">American classic</a></li>
+                            <li class="fantasies__item"><a href="">Empire</a></li>
+                            <li class="fantasies__item"><a href="">Classical</a></li>
+                            <li class="fantasies__item"><a href="">Loft</a></li>
+                            <li class="fantasies__item"><a href="">Minimalism</a></li>
+                            <li class="fantasies__item"><a href="">Provence</a></li>
+                            <li class="fantasies__item"><a href="">Romanticism</a></li>
+                            <li class="fantasies__item"><a href="">Scandinavian style</a></li>
+                            <li class="fantasies__item"><a href="">Mediterranean style</a></li>
+                            <li class="fantasies__item"><a href="">High tech</a></li>
+                            <li class="fantasies__item"><a href="">Eclecticism</a></li>
+                        </ul>
+                    </div>
+                    <div class="fantasies__photos-lower">
+                        <img src="src/fantasies/fantasies__image_1.png" alt="A hall with carpet and cabinet" width="353.81px" height="556.87px">
+                        <img src="src/fantasies/fantasies__image_3.png" alt="Armchair, table, TV" width="353.81px" height="349.47px">
+                    </div>
+                    <div class="fantasies__photos-upper">
+                        <img src="src/fantasies/fantasies__image_2.png" alt="Sofa anf furniture" width="353.81px" height="275px">
+                        <img src="src/fantasies/fantasies__image_4.png" alt="Green wall and flowers on table" width="353.81px" height="625.23px">
+                    </div>
+                </div>
+                <div class="overlay fantasies__overlay"></div>
+            </section>
+            <section class="clients">
+                <h3 class="title_segment types-of-repair__title">our clients</h3>
+                <div class="icon-segment clients__icon">
+                    <div class="line icon-segment__line"></div>
+                    <img src="src/clients/clients__icon_handshake.svg" alt="Handshake icon" width="32.77" height="28">
+                    <div class="line icon-segment__line"></div>
+                </div>
+                <span class="clients__subtitle">80% of our customers recommend us to their
+                    <br>friends and family.
+                </span>
+                <div class="container clients__container">
+                    <div class="review">
+                        <div class="review__container">
+                            <img src="src/clients/clients__client_maria.png" alt="Maria's photo" width="76px" height="76px">
+                            <h4 class="review__name">
+                                Fedosova Maria
+                                <br>Konstantinovna
+                            </h4>
+                        </div>
+                        <span class="review__text">
+                            I want to thank the guys for their work. We put your shower part in repair. I am very grateful that I referred to the repair as to my own. Great thanks I express the project 
+                            to Georgia for its professionalism and approach.
+                            <br>The repair process was turned out in terms, faster than anticipated. Team mobile and professional. Works performed qualitatively without comments. Quality satisfied. Prices democratic. I recommend these masters.
+                        </span>
+                        <div class="review__metrics">
+                            <img src="src/clients/clients__icon_square-meters.svg" alt="Area in square meters" width="32.34px" height="31.34px">
+                            <span class="title review__text-big">
+                                40 m2
+                            </span>
+                            <div class="review__line"></div>
+                            <img src="src/clients/clients__icon_calendar.svg" alt="Calendar icon" width="32.78px" height="31.35px">
+                            <span class="title review__text-big">
+                                48 DAYS
+                            </span>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <div class="review__container">
+                            <img src="src/clients/clients__client_sergey.png" alt="Sergey's photo" width="76px" height="76px">
+                            <h4 class="review__name">
+                                Afanasyev Sergey <br>Alexandrovich
+                            </h4>
+                        </div>
+                        <span class="review__text">
+                            I want to thank the guys for their work. We put your shower part in repair. I am very grateful that I referred to the repair as to my own. Great thanks I express the project 
+                            to Georgia for its professionalism and approach.
+                            <br>The repair process was turned out in terms, faster than anticipated. Team mobile and professional. Works performed qualitatively without comments. Quality satisfied. Prices democratic. I recommend these masters.
+                        </span>
+                        <div class="review__metrics">
+                            <img src="src/clients/clients__icon_square-meters.svg" alt="Area in square meters" width="32.34px" height="31.34px">
+                            <span class="title review__text-big">
+                                90 m2
+                            </span>
+                            <div class="review__line"></div>
+                            <img src="src/clients/clients__icon_calendar.svg" alt="Calendar icon" width="32.78px" height="31.35px">
+                            <span class="title review__text-big">
+                                128 DAYS
+                            </span>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <div class="review__container">
+                            <img src="src/clients/clients__client_egor.png" alt="Egor's photo" width="76px" height="76px">
+                            <h4 class="review__name">
+                                Kiriev Egor <br>Leonidovich
+                            </h4>
+                        </div>
+                        <span class="review__text">
+                            I want to thank the guys for their work. We put your shower part in repair. I am very grateful that I referred to the repair as to my own. Great thanks I express the project 
+                            to Georgia for its professionalism and approach.
+                            <br>The repair process was turned out in terms, faster than anticipated. Team mobile and professional. Works performed qualitatively without comments. Quality satisfied. Prices democratic. I recommend these masters.
+                        </span>
+                        <div class="review__metrics">
+                            <img src="src/clients/clients__icon_square-meters.svg" alt="Area in square meters" width="32.34px" height="31.34px">
+                            <span class="title review__text-big">
+                                56 m2
+                            </span>
+                            <div class="review__line"></div>
+                            <img src="src/clients/clients__icon_calendar.svg" alt="Calendar icon" width="32.78px" height="31.35px">
+                            <span class="title review__text-big">
+                                86 DAYS
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="contact-us">
+                <div class="contact-us__container">
+                    <div class="questions">
+                        <h3 class="title questions__title">
+                            have any questions?
+                        </h3>
+                        <div class="questions__container">
+                            <div class="input questions__wrapper-small">
+                                <span class="input__title request-specialist__field">Name</span>
+                                <input class="input__field request-specialist__input" type="text" placeholder="What is your name:" title="What is your name">
+                                <div class="line input__line request-specialist__line"></div>
+                            </div>
+                            <div class="input questions__wrapper-small">
+                                <span class="input__title request-specialist__field">Phone</span>
+                                <input class="input__field request-specialist__input" type="tel" placeholder="Your phone number:" title="Your phone number">
+                                <div class="line input__line request-specialist__line"></div>
+                            </div>
+                            <div class="input questions__wrapper-big">
+                                <span class="input__title request-specialist__field">Question</span>
+                                <input class="input__field request-specialist__input" type="text" placeholder="I want to know:" title="I want to know:">
+                                <div class="line input__line request-specialist__line"></div>
+                            </div>
+                        </div>
+                        <div class="checkbox questions__checkbox">
+                            <input type="checkbox" class="checkbox__field" title="I agree to the processing of personal data">
+                            <span class="checkbox__title request-specialist__line">I agree to the processing of personal <br class="br_small-screen">data</span>
+                        </div>
+                        <button class="button questions__button">Submit</button>
+                    </div>
+                    <div class="contact-us__wrapper">
+                        <span class="title contact-us__address">
+                            Rostov-on-Don, Nansen St., 239 Shopping Center
+                            <br>Decorum Tel +7 (928) 768 32 29
+                        </span>
+                        <div class="contact-method">
+                            <button class="contact-method__icon">
+                                <img src="src/contact-method/contact-method__icon_mail.svg" alt="Mail icon" width="14px" height="11.2px">
+                            </button>
+                            <button class="contact-method__icon">
+                                <img src="src/contact-method/contact-method__icon_insta.svg" alt="Inst icon" width="12px" height="12px">
+                            </button>
+                        </div>
+                    </div>
+                    <img src="src/contact-us/contact-us__map_small.png" class="contact-us__map_small" alt="Map with location" width="925px" height="465px">
+                    <img src="src/contact-us/contact-us__map.png" class="contact-us__map" alt="Map with location" width="925px" height="465px">
+                </div>
+                <div class="overlay contact-us__shading"></div>     
+                <div class="overlay contact-us__overlay"></div>
+            </section>
         </main>
-        <footer>
-            
+        <footer class="footer">
+            <div class="container header-content footer-content">
+                <div class="logo">
+                    IC "Repair Design Project"
+                </div>
+                <nav class="header-content__container">
+                    <ul class="header-navigation">
+                        <li class="header-navigation__item"><a href="">Home</a></li>
+                        <li class="header-navigation__item"><a href="">Projects</a></li>
+                        <li class="header-navigation__item"><a href="">Measurement</a></li>
+                        <li class="header-navigation__item"><a href="">Team</a></li>
+                        <li class="header-navigation__item"><a href="">Reviews</a></li>
+                        <li class="header-navigation__item"><a href="">Contacts</a></li>
+                    </ul>
+                </nav>
+                <span class="header-content__text">+7 (928) 768-32-39</span>
+                <button class="button header-content__button">Request a call</button>
+            </div>
         </footer>
     </body>
 </html>

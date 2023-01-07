@@ -1,0 +1,29 @@
+.header-navigation {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.header-navigation__item {
+    margin-right: 47px;
+}
+
+.header-navigation__item a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Nunito Sans';
+}
+
+.header-navigation__item a:hover {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Nunito Sans';
+    color: #E3B873;
+}
+
+.header-navigation li:first-child a {
+    color: #E3B873;
+}

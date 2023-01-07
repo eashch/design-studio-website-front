@@ -1,0 +1,19 @@
+.br_small-screen {
+    display: none;
+}
+
+@media screen and (max-width: 1300px) {
+    .br_small-screen {
+        display: inline;
+    }
+}
+
+.br_big-screen {
+    display: inline;
+}
+
+@media screen and (max-width: 1300px) {
+    .br_big-screen {
+        display: none;
+    }
+}

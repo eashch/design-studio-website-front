@@ -1,0 +1,45 @@
+
+.charity {
+    padding-left: 766.5px;
+    margin-top: 38.44px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 25px;
+}
+
+.charity__container {
+    height: 72px;
+    width: 72px;
+    border-radius: 36px;
+    background: #E3B873;
+    -webkit-box-shadow: 0px 10px 20px rgba(237, 192, 120, 0.2);
+            box-shadow: 0px 10px 20px rgba(237, 192, 120, 0.2);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.charity__description {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #E3B873;
+    text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
+    text-transform: none;
+}

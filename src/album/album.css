@@ -1,0 +1,56 @@
+
+.album {
+    display: none;       
+}
+
+@media screen and (max-width: 1300px) {
+    .album {
+        width: 100%;
+        aspect-ratio: 1.4075;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        background-image: #000000;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 14px;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+    }
+
+    .album__switcher {
+        width: 36px;
+        height: 36px;
+        background: #E3B873;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        border-radius: 18px;
+        cursor: pointer;
+        border: none;
+    }
+
+    .album__half-block-color {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        background-color: #FFFFFF;
+        position: absolute;
+        z-index: -1;
+        margin-top: 90px;
+        margin-left: -1px;
+        height: calc((100% - 90px) / 2);
+    }
+}

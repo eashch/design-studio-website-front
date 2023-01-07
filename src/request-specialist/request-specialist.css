@@ -1,0 +1,128 @@
+
+.request-specialist {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1300px) {
+    .request-specialist {
+        display: none;
+    }
+}
+
+.request-specialist__background {
+    margin-left: -100px;
+}
+
+.request-specialist__container {
+    margin-top: -537.79px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.request-specialist__form {
+    max-width: 506px;
+    width: 506px;
+    padding: 28px 49px 27px 49px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    background: #131313;
+    -webkit-box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
+            box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+}
+
+.request-specialist__line {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.request-specialist__title {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0;
+    margin-bottom: 39px;
+    text-transform: none;
+}
+
+.request-specialist__input {
+    width: 100%;
+    margin-top: 0px;
+    color: #FFFFFF;
+}
+
+.request-specialist__wrapper {
+    width: 100%;
+    margin-bottom: 48px;
+}
+
+.request-specialist__field {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+.request-specialist__input::-webkit-input-placeholder {
+    color: #FFFFFF;
+}
+
+
+.request-specialist__input::-moz-placeholder {
+    color: #FFFFFF;
+}
+
+
+.request-specialist__input:-ms-input-placeholder {
+    color: #FFFFFF;
+}
+
+
+.request-specialist__input::-ms-input-placeholder {
+    color: #FFFFFF;
+}
+
+
+.request-specialist__input::placeholder {
+    color: #FFFFFF;
+}
+
+.request-specialist__checkbox {
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    margin-top: -31px;
+}
+
+.request-specialist__checkbox span {
+    color: #FFFFFF;
+    background-color: transparent;
+}
+
+.request-specialist__button {
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    margin-top: 39px;
+}

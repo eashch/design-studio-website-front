@@ -1,0 +1,14 @@
+.hero {
+    background-image: url("hero__background.png");
+    background-size: cover;
+    height: 707px;
+    position: relative;
+    background-position: center center;
+}
+
+@media screen and (max-width: 1300px) {
+    .hero {
+        height: 467px;
+        background-image: url("hero__background_small.png");
+    }
+}

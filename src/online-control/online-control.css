@@ -1,0 +1,65 @@
+.online-control {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: -323px;
+}
+
+@media screen and (max-width: 1300px) {
+    .online-control {
+        margin-top: 0px;
+        background-color: #181818;
+    }
+}
+
+.online-control__line {
+    margin-top: 62.5px;
+    width: 55px;
+}
+
+@media screen and (max-width: 1300px) {
+    .online-control__line {
+        margin-top: 28px;
+    }
+}
+
+.online-control__text {   
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 37px;
+    text-align: center;
+    color: #363636;
+    padding-left: 282px;
+    padding-right: 283px;
+    text-transform: none;
+    margin-top: 34.46px;
+    margin-bottom: 71.5px;
+}
+
+@media screen and (max-width: 1300px) {
+    .online-control__text {
+        padding-left: 0;
+        padding-right: 0;
+        font-size: 11px;
+        line-height: 169.8%;
+        margin-top: 21.46px;
+        margin-bottom: 61.05px;
+        color: #FFFFFF;
+    }
+}
+
+.online-control__video {
+    background-image: url("online-control__preview.png");
+}

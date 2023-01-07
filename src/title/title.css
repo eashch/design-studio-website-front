@@ -1,0 +1,36 @@
+.title {
+    margin: 0;
+    font-family: 'Yeseva One', 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 1300px) {
+    .title {
+        font-size: 23px;
+        line-height: 132.83%;
+    }
+}
+
+.title_segment {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+@media screen and (max-width: 1300px) {
+    .title_segment {
+        font-size: 22px;    
+        line-height: 138.6%;
+    }
+}

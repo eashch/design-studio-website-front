@@ -1,0 +1,45 @@
+
+.checkbox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+}
+
+.checkbox__field {
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background-color: #E3B873;
+    border: none;
+    cursor: pointer;
+    width: 18px;
+    height: 18px;    
+    margin: 0;
+    color: currentColor;
+    margin-right: 8.62px;
+}
+
+.checkbox__field:checked {
+	background:url("checkbox__icon_tick.svg") no-repeat;
+    background-color: #E3B873;
+    background-position: center;
+}
+
+.checkbox__title {
+    font-size: 14px;
+    line-height: 23px;
+    color: #181818;
+    text-transform: none;
+}
+
+@media screen and (max-width: 1300px) {
+    .checkbox__title {
+        font-size: 14px;
+        line-height: 163.68%;
+        color: #FFFFFF;
+    }
+}
